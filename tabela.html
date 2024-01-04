@@ -1,49 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas</title>
-</head>
-<body>
- <!--   <table border="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela final</title>
+    <link rel="stylesheet" href="tabela.css">
+  </head>
+  <body>
+    <table border="">
+      <caption>
+        Turma 3b
+      </caption>
+      <thead>
+      <tr>
+        <th scope="col">Matéria</th>
+        <th scope="col">Aluno</th>
+        <th scope="col">Nota</th>
+      </tr>
+    </thead>
+    <tbody>
         <tr>
-            <td>linha 1, coluna 1</td>
-            <td>linha 1, coluna 2</td>
+            <td rowspan="3">Matematica</td>
+            <td>Guilherme</td>
+            <td class="verde">90</td>
         </tr>
         <tr>
-            <td>linha 2, coluna 1</td>
-            <td>linha 2, coluna 2</td>
+            <td>Thiago</td>
+            <td class="vermelho">40</td>
         </tr>
-    </table>-->
-  <h1>Produtos do mercado</h1>
-  <table border="">
-
-    <tr>
-        <th scope="col">Nome:</th>
-        <tH scope="col">Preço Unitário (R$)</th>
-    </tr>
-    <tr>
-        <td>Cartela de ovos(30unid.):</td>
-        <td>R$15,99</td>
-    </tr>
-    <tr>
-        <td>Detergente em pó - 1,6kg</td>
-        <td>13,99</td>
-    </tr>
-    <tr>
-        <td>Linguiça Suína - KG</td>
-        <td>R$13,99</td>
-    </tr>
-    <tr>
-        <td>Pernil Suíno - Peça/Pedaço kg</td>
-        <td>R$14,80</td>
-    </tr>
-    <tr>
-        <td>Refrigerante 2L</td>
-        <td>R$5,99</td>
-    </tr>
-
-  </table>
-</body>
+        <tr>
+            <td>Júlia</td>
+            <td class="verde">75</td>
+    
+        </tr>
+        <tr>
+            <td rowspan="3">Português</td>
+            <td class="guilherme2">Guilherme</td>
+            <td class="verde">70</td>
+        </tr>
+        <tr>
+            <td>Thiago</td>
+            <td class="verde">100</td>
+        </tr>
+        <tr>
+            <td>Júlia</td>
+            <td class="vermelho">20</td>
+        </tr>
+        <tr>
+            <td rowspan="3">História</td>
+            <td>Guilherme</td>
+            <td class="vermelho">50</td>
+        </tr>
+        <tr>
+            <td>Thiago</td>
+            <td class="vermelho">30</td>
+        </tr>
+        <tr>
+            <td>Júlia</td>
+            <td class="vermelho">10</td>
+        </tr>
+        </table>
+    </tbody>
+  </body>
 </html>
